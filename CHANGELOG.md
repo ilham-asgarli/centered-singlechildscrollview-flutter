@@ -13,3 +13,7 @@
 ## 0.0.4
 
 * Some fixes.
+
+## 0.0.5
+
+* Some fixes.

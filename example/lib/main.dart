@@ -37,7 +37,9 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: CenteredSingleChildScrollView(
-        child: CircularProgressIndicator(),
+        children: [
+          CircularProgressIndicator(),
+        ],
       ),
     );
   }

@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 
 class CenteredSingleChildScrollView extends StatelessWidget {
-  final Widget? child;
+  final List<Widget>? children;
+  final MainAxisAlignment? mainAxisAlignment;
 
-  const CenteredSingleChildScrollView({this.child, Key? key}) : super(key: key);
+  const CenteredSingleChildScrollView(
+      {this.children, this.mainAxisAlignment, Key? key})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +19,11 @@ class CenteredSingleChildScrollView extends StatelessWidget {
                 minWidth: constraints.maxWidth,
                 minHeight: constraints.maxHeight),
             child: IntrinsicHeight(
-              child: child,
+              child: Column(
+                mainAxisAlignment:
+                    mainAxisAlignment ?? MainAxisAlignment.center,
+                children: children ?? [],
+              ),
             ),
           ),
         );
