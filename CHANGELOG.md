@@ -1,3 +1,7 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* Center aligned SingleChildScrollView.
+
+## 0.0.2
+
+* Added github repository.
