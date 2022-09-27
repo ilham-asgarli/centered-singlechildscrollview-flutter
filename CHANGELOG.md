@@ -17,3 +17,7 @@
 ## 0.0.5
 
 * Some fixes.
+
+## 0.0.6
+
+* Added some SingleChildScrollView features.
