@@ -9,3 +9,7 @@
 ## 0.0.3
 
 * Added example.
+
+## 0.0.4
+
+* Some fixes.
