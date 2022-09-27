@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: CenteredSingleChildScrollView(
+      body: const CenteredSingleChildScrollView(
         children: [
           CircularProgressIndicator(),
         ],
