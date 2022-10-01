@@ -25,3 +25,7 @@
 ## 0.0.7
 
 * Added more explanation.
+
+## 0.0.8
+
+* Added more explanation.
