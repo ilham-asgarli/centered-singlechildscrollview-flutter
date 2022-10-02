@@ -29,3 +29,7 @@
 ## 0.0.8
 
 * Added more explanation.
+
+## 0.0.9
+
+* Description edited.
