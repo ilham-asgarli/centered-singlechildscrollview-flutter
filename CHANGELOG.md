@@ -33,3 +33,7 @@
 ## 0.0.9
 
 * Description edited.
+
+## 0.1.0
+
+* Explanation edited.

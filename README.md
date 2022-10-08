@@ -9,7 +9,7 @@ class Screen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CenteredChildScrollView(
+    return CenteredSingleChildScrollView(
       child: CircularProgressIndicator(),
     );
   }
