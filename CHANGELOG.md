@@ -37,3 +37,7 @@
 ## 0.1.0
 
 * Explanation edited.
+
+## 0.1.1
+
+* Added size features.

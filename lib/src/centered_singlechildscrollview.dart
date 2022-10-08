@@ -8,6 +8,8 @@ class CenteredSingleChildScrollView extends StatelessWidget {
   final bool reverse;
   final bool? primary;
   final EdgeInsetsGeometry? padding;
+  final bool maxWidth;
+  final bool maxHeight;
 
   const CenteredSingleChildScrollView({
     this.scrollController,
@@ -17,6 +19,8 @@ class CenteredSingleChildScrollView extends StatelessWidget {
     this.reverse = false,
     this.padding,
     this.primary,
+    this.maxWidth = true,
+    this.maxHeight = true,
     Key? key,
   }) : super(key: key);
 
@@ -33,8 +37,9 @@ class CenteredSingleChildScrollView extends StatelessWidget {
           physics: const ClampingScrollPhysics(),
           child: ConstrainedBox(
             constraints: BoxConstraints(
-              minWidth: constraints.maxWidth,
-              minHeight: constraints.maxHeight,
+              minWidth: maxWidth ? constraints.maxWidth : constraints.minWidth,
+              minHeight:
+                  maxHeight ? constraints.maxHeight : constraints.minHeight,
             ),
             child: IntrinsicHeight(
               child: Column(
