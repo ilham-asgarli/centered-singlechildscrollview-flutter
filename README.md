@@ -11,8 +11,6 @@ SingleChildScrollView, it will be in the center. If it's large, it behaves like 
 SingleChildScrollView. The child's place in the center can be changed. You can choose distribution
 of children on scrollDirection by specifying mainAxisAlignment like Column.</p>
 
-<br>
-
 ```dart
 class Screen extends StatelessWidget {
   const Screen({Key? key}) : super(key: key);
