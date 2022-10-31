@@ -57,3 +57,7 @@
 ## 0.1.5
 
 * Some fixes.
+
+## 0.1.6
+
+* Some fixes.
