@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/pub/v/centered_singlechildscrollview?color=blue" />
 </a>
 
-<br><br>
+<br>
 
 <p>The child is centered in the SingleChildScrollView. If the child is smaller than
 SingleChildScrollView, it will be in the center. If it's large, it behaves like a normal
