@@ -1,6 +1,6 @@
 name: centered_singlechildscrollview
 description: You can choose distribution of children on scrollDirection by specifying mainAxisAlignment like Column.
-version: 0.1.1
+version: 0.1.5
 homepage: https://github.com/ilham-asgarli/centered_singlechildscrollview
 repository: https://github.com/ilham-asgarli/centered_singlechildscrollview
 

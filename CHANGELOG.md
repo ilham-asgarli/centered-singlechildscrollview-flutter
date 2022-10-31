@@ -41,3 +41,19 @@
 ## 0.1.1
 
 * Added size features.
+
+## 0.1.2
+
+* Added Contributors.
+
+## 0.1.3
+
+* Some fixes.
+
+## 0.1.4
+
+* Some fixes.
+
+## 0.1.5
+
+* Some fixes.
