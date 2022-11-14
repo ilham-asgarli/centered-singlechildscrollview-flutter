@@ -4,6 +4,7 @@ class CenteredSingleChildScrollView extends StatelessWidget {
   final ScrollController? scrollController;
   final List<Widget> children;
   final MainAxisAlignment mainAxisAlignment;
+  final CrossAxisAlignment crossAxisAlignment;
   final Axis axis;
   final bool reverse;
   final bool? primary;
@@ -15,6 +16,7 @@ class CenteredSingleChildScrollView extends StatelessWidget {
     this.scrollController,
     this.children = const [],
     this.mainAxisAlignment = MainAxisAlignment.center,
+    this.crossAxisAlignment = CrossAxisAlignment.center,
     this.axis = Axis.vertical,
     this.reverse = false,
     this.padding,
@@ -44,6 +46,7 @@ class CenteredSingleChildScrollView extends StatelessWidget {
             child: IntrinsicHeight(
               child: Column(
                 mainAxisAlignment: mainAxisAlignment,
+                crossAxisAlignment: crossAxisAlignment,
                 children: children,
               ),
             ),
