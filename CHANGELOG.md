@@ -73,3 +73,7 @@
 ## 0.1.9
 
 * Some fixes.
+
+## 0.2.0
+
+* Some fixes.
