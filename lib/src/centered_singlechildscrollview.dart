@@ -43,12 +43,10 @@ class CenteredSingleChildScrollView extends StatelessWidget {
               minHeight:
                   maxHeight ? constraints.maxHeight : constraints.minHeight,
             ),
-            child: IntrinsicHeight(
-              child: Column(
-                mainAxisAlignment: mainAxisAlignment,
-                crossAxisAlignment: crossAxisAlignment,
-                children: children,
-              ),
+            child: Column(
+              mainAxisAlignment: mainAxisAlignment,
+              crossAxisAlignment: crossAxisAlignment,
+              children: children,
             ),
           ),
         );

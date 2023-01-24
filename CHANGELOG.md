@@ -69,3 +69,7 @@
 ## 0.1.8
 
 * Added crossAxisAlignment.
+
+## 0.1.9
+
+* Some fixes.
